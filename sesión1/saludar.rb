@@ -11,4 +11,5 @@ Conviene cambiar la siguiente porción del código
 para usar la función puts
 =end
 
-print "Hola ",name,", tienes ",age," años de edad\n"
+#print "Hola ",name,", tienes ",age," años de edad\n"
+puts "Hola #{name}" + " tienes: #{age} años"
