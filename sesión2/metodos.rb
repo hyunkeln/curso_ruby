@@ -5,7 +5,7 @@
 
 puts "1 taller de ruby".hash
 puts "2 conca"+"tenar"
-puts "3 Taller de ruby".capitalize
+puts "taller de ruby".capitalize
 puts "4 Taller de RUBY".downcase
 puts "5 taller de ruby".upcase
 puts "6 taller de ruby".chop
