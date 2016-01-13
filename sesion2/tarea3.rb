@@ -30,7 +30,7 @@ snum.size.times do
         texto = "quince"
     elsif digito == 0
         texto = numero < 10 ? "cero" : texto
-    elsif
+    else
         texto = (i == 1 ? unidades[digito] : numero % 10 == 0 ? decena[digito] : decenas[digito]) + texto
     end
 end 
