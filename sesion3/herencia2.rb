@@ -21,6 +21,7 @@ end
 
 class Small
     def initialize()
+        #Variables de instancia (son internas a la clase)
         @other = Child.new()
         @other2 = Parent.new()
     end
