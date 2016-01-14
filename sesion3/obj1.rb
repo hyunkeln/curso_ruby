@@ -21,3 +21,7 @@ puts "-"*8
 0.upto(5) { |n| puts Obj01.new.roll}
 puts "-"*8
 5.times { |n| puts Obj01.new.roll}
+puts "-"*8
+for i in 0..3
+   puts myObjects[i] 
+end
