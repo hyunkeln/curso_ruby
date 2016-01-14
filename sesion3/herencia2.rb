@@ -8,26 +8,30 @@ class Parent
     def suma 
         2+2
     end
-    def multi 
-        4*4
+    def hola2
+        "Hola Hola..."    
     end
 end
 
-class Child < Parent 
+class Child
     def hola
         "Hola clase 2"
     end
 end 
 
-class Small < Child 
+class Small
+    def initialize()
+        @other = Child.new()
+        @other2 = Parent.new()
+    end
     def hola
-        "Hola clase 3"
-        #super()
-        #super llama a la función del Child
+        @other.hola
+    end
+    def saludo
+        @other2.hola2
     end
 end 
 
 myObject = Small.new
 puts myObject.hola
-puts myObject.suma
-puts myObject.multi
+puts myObject.saludo
